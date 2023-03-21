@@ -1,0 +1,186 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.service{
+	padding-top:3rem;
+	
+}
+.ser-cotainer{
+	width:90%;
+	margin:0 auto;
+	
+}
+.ser-hp{
+	text-align:center;
+	position:relative;
+}
+.ser-hp p{
+	padding-top:2rem;
+	color:grey;
+}
+.ser-hp h1::after{
+	position:absolute;
+	content:"";
+	height:2px;
+	width:35px;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:#009999;
+}
+.ser-row{
+	padding-top:3rem;
+	display:flex;
+
+}
+.ser-col{
+	width:30%;
+		box-shadow:0 0 10px grey;
+	background-color:004d4d;
+}
+.ser-col1{
+	width:70%;
+	gap:2
+	padding-top:10px;
+	box-shadow:0 0 10px grey;
+}
+.location{
+	display:flex;
+	gap:8%;
+	background-color:009999;
+	padding:12px;
+	border-radius:10px;
+}
+.card{
+	padding:20px;
+}
+.icon i{
+	display:flex;
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	justify-content:center;
+	align-items:center;
+	color:white;
+	background-color:#004d4d;
+}
+.ne{
+	display:flex;
+	
+	gap:2%;
+}
+.ne input{
+	width:40%;
+	padding:20px;
+}
+.subject{
+	padding-top:20px;
+}
+.subject input{
+	padding:20px;
+	width:82%;
+}
+.textarea{
+
+	padding-top:20px;
+}
+.textarea textarea{
+	width:82%;
+	height:40%;
+}
+.con-butt{
+	padding-top:3rem;
+	text-align:center;
+}
+.con-butt a{
+	text-decoration:none;
+	color:white;
+	background-color:004d4d;
+	border-radius:90px;
+	padding:10px 25px;
+}
+
+@media(min-width:320px){
+	.ser-row{
+	padding-top:3rem;
+	display:flex;
+	flex-wrap:wrap;
+}
+.ser-col{
+	width:100%;
+	
+	background-color:004d4d;
+}
+.ser-col1{
+	width:100%;
+	gap:2
+	padding-top:10px;
+	box-shadow:0 0 10px grey;
+}
+.textarea textarea{
+	width:42%;
+	height:20%;
+}
+.con-butt{
+	padding-top:2rem;
+	padding-bottom:3rem;
+	text-align:center;
+}
+}
+
+@media(min-width:690px){
+	.ser-row{
+	padding-top:3rem;
+	display:flex;
+}
+.ser-col{
+	width:30%;
+	
+	background-color:004d4d;
+}
+.ser-col1{
+	width:70%;
+	gap:2
+	padding-top:10px;
+	
+}
+.textarea textarea{
+	width:82%;
+	height:40%;
+}
+.con-butt{
+		padding-top:2rem;
+	padding-bottom:3rem;
+	text-align:center;
+}
+}
+
+@media(min-width:1020px){
+	.ser-row{
+	padding-top:3rem;
+	display:flex;
+}
+.ser-col{
+	width:30%;
+	
+	background-color:004d4d;
+}
+.ser-col1{
+	width:70%;
+	gap:2
+	padding-top:10px;
+	box-shadow:0 0 10px grey;
+}
+.textarea textarea{
+	width:82%;
+	height:40%;
+}
+.con-butt{
+	padding-top:3rem;
+	text-align:center;
+}
+}
